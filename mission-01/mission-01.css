@@ -1,1 +1,41 @@
 @import url(./reset.css);
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+.box {
+  border: 1px solid #c4c4c4;
+  text-align: center;
+}
+
+.CardLinkWide {
+  width: 502px;
+}
+
+.CardLinkNormal {
+  width: 243px;
+}
+
+.bottom {
+  margin-top: 16px;
+  width: 502px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.button {
+  border: none;
+  background: none;
+}
+
+.button a:hover::before {
+  content: "구매하기";
+  width: 112px;
+  height: 42px;
+}
