@@ -7,6 +7,9 @@ body {
 
 .container {
   margin-top: 50px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  color: #4e4e4e;
 }
 .box {
   border: 1px solid #c4c4c4;
@@ -15,10 +18,22 @@ body {
 
 .CardLinkWide {
   width: 502px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.CardLinkWide .wide-title {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 .CardLinkNormal {
   width: 243px;
+  padding: 14px 0;
+  font-size: 18px;
 }
 
 .bottom {
@@ -27,15 +42,4 @@ body {
   display: flex;
   justify-content: space-between;
   flex-flow: row nowrap;
-}
-
-.button {
-  border: none;
-  background: none;
-}
-
-.button a:hover::before {
-  content: "구매하기";
-  width: 112px;
-  height: 42px;
 }
