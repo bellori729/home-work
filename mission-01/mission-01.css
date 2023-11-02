@@ -20,14 +20,24 @@ body {
   width: 502px;
   font-size: 24px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 20px 28px;
 }
 
 .CardLinkWide .wide-title {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  padding-bottom: 50px;
+  width: 200px;
+  padding-bottom: 42px;
+}
+
+.CardLinkWide .wide-title h1 {
+  line-height: 1;
+}
+
+.CardLinkWide p {
+  margin-top: 13px;
 }
 
 .CardLinkNormal {
