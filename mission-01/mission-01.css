@@ -14,6 +14,7 @@ body {
 .box {
   border: 1px solid #c4c4c4;
   text-align: center;
+  position: relative;
 }
 
 .CardLinkWide {
@@ -28,7 +29,6 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  width: 200px;
   padding-bottom: 42px;
 }
 
@@ -36,14 +36,29 @@ body {
   line-height: 1;
 }
 
+.box p {
+  margin: 0 auto;
+  width: 200px;
+}
+
 .CardLinkWide p {
   margin-top: 13px;
+}
+
+.CardLinkNormal h1 {
+  line-height: 1;
+}
+
+.CardLinkNormal p {
+  margin-top: 10px;
+  margin-bottom: 7px;
 }
 
 .CardLinkNormal {
   width: 243px;
   padding: 14px 0;
   font-size: 18px;
+  height: 310px;
 }
 
 .bottom {
@@ -52,4 +67,26 @@ body {
   display: flex;
   justify-content: space-between;
   flex-flow: row nowrap;
+}
+
+.purchase-btn {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  padding: 0 20px;
+  height: 42px;
+  border: none;
+  color: #fff;
+  background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.purchase-btn:hover {
+  width: 112px;
+  background: #0074e9;
+}
+
+.purchase-btn:hover::before {
+  content: "구매하기";
 }
