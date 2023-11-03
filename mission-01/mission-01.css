@@ -70,15 +70,16 @@ body {
 
 .purchase-btn {
   position: absolute;
+  white-space: nowrap;
   left: 20px;
   bottom: 20px;
-  padding: 0 16px;
+  width: 42px;
   height: 42px;
   border: none;
   color: #fff;
   background: url(<path-to-image>), lightgray 50% / contain no-repeat;
   cursor: pointer;
-  transition: 200ms;
+  transition: 100ms;
 }
 
 .purchase-btn:hover {
