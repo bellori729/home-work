@@ -10,6 +10,12 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
   color: #4e4e4e;
+
+  /* bottom 부분에서 따옴 */
+  width: 502px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 .box {
   border: 1px solid #c4c4c4;
@@ -23,6 +29,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px 28px;
+  margin-bottom: 16px;
 }
 
 .CardLinkWide .wide-title {
@@ -61,19 +68,11 @@ body {
   height: 310px;
 }
 
-.bottom {
-  margin-top: 16px;
-  width: 502px;
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row nowrap;
-}
-
 .purchase-btn {
   position: absolute;
   left: 20px;
   bottom: 20px;
-  padding: 0 20px;
+  padding: 0 16px;
   height: 42px;
   border: none;
   color: #fff;
@@ -81,6 +80,11 @@ body {
   cursor: pointer;
   transition: 200ms;
 }
+
+/* .icon-angle-right::before { 
+  content: '\f192';
+  font-family: "fontnello";
+} */
 
 .purchase-btn:hover {
   width: 112px;
