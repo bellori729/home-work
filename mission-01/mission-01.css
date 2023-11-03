@@ -1,4 +1,4 @@
-@import url(./reset.css);
+@import url(./fontello.css);
 
 body {
   display: flex;
@@ -80,11 +80,6 @@ body {
   cursor: pointer;
   transition: 200ms;
 }
-
-/* .icon-angle-right::before { 
-  content: '\f192';
-  font-family: "fontnello";
-} */
 
 .purchase-btn:hover {
   width: 112px;
