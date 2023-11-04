@@ -5,24 +5,35 @@ body {
   justify-content: center;
 }
 
+/* 전체 박스 컨테이너 */
 .container {
   margin-top: 50px;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
+  text-align: center;
   color: #4e4e4e;
-
-  /* bottom 부분에서 따옴 */
   width: 502px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 }
+
+/* article 공통 클래스 */
 .box {
   border: 1px solid #c4c4c4;
-  text-align: center;
   position: relative;
 }
 
+.box p {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.box h1 {
+  line-height: 0.8;
+}
+
+/* 상단 article */
 .CardLinkWide {
   width: 502px;
   font-size: 24px;
@@ -39,28 +50,11 @@ body {
   padding-bottom: 42px;
 }
 
-.CardLinkWide .wide-title h1 {
-  line-height: 1;
-}
-
-.box p {
-  margin: 0 auto;
-  width: 200px;
-}
-
 .CardLinkWide p {
   margin-top: 13px;
 }
 
-.CardLinkNormal h1 {
-  line-height: 1;
-}
-
-.CardLinkNormal p {
-  margin-top: 10px;
-  margin-bottom: 7px;
-}
-
+/* 하단 article */
 .CardLinkNormal {
   width: 243px;
   padding: 14px 0;
@@ -68,16 +62,22 @@ body {
   height: 310px;
 }
 
+.CardLinkNormal p {
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+/* 구매하기 버튼 */
 .purchase-btn {
-  position: absolute;
   white-space: nowrap;
+  position: absolute;
   left: 20px;
   bottom: 20px;
   width: 42px;
   height: 42px;
   border: none;
   color: #fff;
-  background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+  background: lightgray;
   cursor: pointer;
   transition: 100ms;
 }
