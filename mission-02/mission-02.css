@@ -106,7 +106,7 @@ main {
   font-size: 12px;
 }
 
-/* 메인 이메일 입력 영역 */
+/* 메인 로그인 입력 영역 */
 .login-form {
   margin-top: 100px;
   /* background-color: pink; */
@@ -124,14 +124,78 @@ main {
 
 .input-wrapper input {
   border: none;
-  border-bottom: 1px solid #fff;
   background-color: transparent;
   color: #fff;
+  padding: 10px;
+  outline: none;
+}
+
+.icon-ok-circled {
+  opacity: 0;
+  grid-area: input-circle;
+  text-align: end;
+}
+
+/* 이메일 입력 영역 */
+.input-email-wrapper {
+  width: 570px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 31px;
+  display: grid;
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1.5fr 0.5fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "input-email-label input-email-label"
+    "input-email input-circle"; 
+}
+
+.input-email-wrapper label {
+  grid-area: input-email-label;
 }
 
 #input-email {
-  margin-bottom: 31px;
+  width: 100%;
+  outline: none;
+  grid-area: input-email;
 }
+
+
+#input-email:focus + .icon-ok-circled {
+  opacity: 1;
+}
+
+/* 비밀번호 입력 영역 */
+.input-pw-wrapper {
+  width: 570px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 31px;
+  display: grid;
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1.5fr 0.5fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+  "input-pw-label ."
+  "input-pw input-circle"
+  ;
+}
+
+.input-pw-wrapper label {
+  grid-area: input-pw-label;
+}
+
+#input-pw {
+  width: 100%;
+  outline: none;
+  grid-area: input-pw;
+}
+
+#input-pw:focus + .icon-ok-circled {
+  opacity: 1;
+}
+
 
 /* 버튼 영역 */
 .button-wrapper {
@@ -139,6 +203,7 @@ main {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  border: none;
 }
 
 .button-wrapper button {
