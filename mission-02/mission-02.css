@@ -1,9 +1,12 @@
 @import './reset.css';
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+.spoka * { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
 body {
   background-color: #aaa;
   width: 1440px;
   margin: 0 auto;
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
 }
 
 /* 헤더 영역 */
@@ -19,6 +22,7 @@ header {
   justify-content: space-between;
 }
 
+/* 헤더 타이틀 영역 */
 .header-title {
   display: flex;
   flex-flow: column nowrap;
@@ -30,6 +34,7 @@ header {
   line-height: 14px;
 }
 
+/* 헤더 네비게이션 영역 */
 .header-nav {
   display: flex;
   flex-flow: column nowrap;
@@ -58,4 +63,31 @@ main {
   height: 850px;
   padding: 0 614px;
   background: url(./images/coffeebg.png) no-repeat;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.main-title-wrapper {
+  color: #FEFEFE;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  text-align: center;
+  /* margin-bottom: 100px; */
+}
+
+/* 메인 타이틀 영역 */
+.main-title {
+  font-weight: 200;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.main-title-wrapper p:nth-child(2) {
+  font-size: 18px;
+}
+
+.main-title-wrapper p:nth-child(3) {
+  font-size: 12px;
 }
