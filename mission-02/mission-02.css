@@ -1,0 +1,48 @@
+@import './reset.css';
+
+body {
+  background-color: #aaa;
+}
+
+/* 헤더 영역 */
+.header-container {
+  width: 1440px;
+  height: 50px;
+  background: #FEFEFE;
+  margin: 0 auto;
+  color: #24388D;
+  padding: 0 350px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.header-title {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 18px 0;
+}
+
+.header-nav {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 14px 0;
+}
+
+.header-nav-list {
+  width: 427px;
+  height: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.header-nav-list a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  font-weight: 400;
+}
