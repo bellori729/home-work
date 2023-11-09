@@ -73,11 +73,12 @@ header {
 /* 메인 영역 */
 main {
   height: 850px;
-  padding: 0 614px;
+  padding: 0 450px;
   background: url(./images/coffeebg.png) no-repeat;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  color: #fff;
 }
 
 .main-title-wrapper {
@@ -105,3 +106,54 @@ main {
 }
 
 /* 메인 이메일 입력 영역 */
+.login-form {
+  margin-top: 100px;
+  /* background-color: pink; */
+}
+
+.login-form fieldset {
+  border: none;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.input-wrapper input {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+#input-email {
+  margin-bottom: 31px;
+
+}
+
+/* 버튼 영역 */
+.button-wrapper {
+  margin-top: 70px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.button-wrapper button {
+  width: 260px;
+  height: 48px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button-wrapper button:hover {
+  background-color: #fff;
+  color: #24388D;
+}
