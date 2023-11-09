@@ -2,5 +2,4 @@
 
 이곳은 과제를 하는 공간입니다.
 
-<a href="https://bellori729.github.io/home-work/
-" target="_blank">바로가기
+<a href="https://bellori729.github.io/home-work/">바로가기
