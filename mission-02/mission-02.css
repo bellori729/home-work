@@ -76,10 +76,14 @@ body {
 .input-email-wrapper,
 .input-pw-wrapper {
   display: flex;
-  flex-flow: row-reverse nowrap;
+  flex-flow: column-reverse nowrap;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   border-bottom: 1px solid #FEFEFE;
+}
+
+.input-email-wrapper {
+  margin-bottom: 52px;
 }
 
 .input-email-wrapper input[type="email"],
@@ -89,18 +93,17 @@ body {
   border: none;
   width: 239px;
   color: #FEFEFE;
+  margin: 0 0 8px 8px;
+  padding: 9px 0 0 0;
 }
 
-.input-email-wrapper input[type="email"]:focus + label,
-.input-pw-wrapper input[type="password"]:focus + label {
-  font-size: 13px;
-  align-self: flex-start;
-}
 
 .input-email-wrapper label,
 .input-pw-wrapper label {
   width: 4em;
+  font-size: 13px;
   line-height: 18px;
+  margin: 0;
   cursor: pointer;
 }
 
@@ -109,7 +112,8 @@ body {
   
 }
 
-.button-wrapper button {
+.button-wrapper button,
+.button-wrapper a {
   background: transparent;
   color: #FEFEFE;
   border: 1px solid #FEFEFE;
@@ -172,42 +176,42 @@ body {
 @media (max-width: 600px) {
   body {
     background-color: #aaa
-    }
-
+  }
+  
   .main-container {
     background: url(./images/mcoffeebg.png) no-repeat center center / cover;
     min-width: 375px;
   }
-
+  
   .main-title-wrapper {
     margin: 100px 0 114px 0;
   }
-
+  
   .login-form {
     margin-bottom: 50px;
     width: 311px;
   }
-
+  
   .input-wrapper {
     width: 311px;
   }
-
+  
   .input-email-wrapper,
   .input-pw-wrapper {
     width: 100%;
     height: 48px;
   }
-
+  
   input[id="input-email"],
   input[id="input-pw"] {
     margin: 0 0 8px 0;
   }
-
+  
   .input-email-wrapper label,
   .input-pw-wrapper label {
-    margin: 0 0 8px 8px;
+    /* margin: 0 0 8px 8px; */
   }
-
+  
   /* 로그인, 회원가입 버튼 영역 */
   .button-wrapper {
     display: flex;
@@ -222,17 +226,17 @@ body {
     padding: 13px 0;
     line-height: 1em;
   }
-
+  
   .email-save-checkbox-wrapper {
     margin: 15px 0 133px 0;
   }
-
+  
   .icon-right-small {
     position: absolute;
     top: 14px;
     right: 14px;
   }
-
+  
 }
 
 
@@ -242,23 +246,58 @@ body {
   body {
     background-color: yellow;
   }
-
+  
   .main-container {
     background: url(./images/coffeebg.png) no-repeat center center / cover;
     min-width: 600px;
   }
-
+  
   .main-title-wrapper {
     margin: 120px 0 100px 0;
   }
-
+  
   .login-form {
     margin-bottom: 254px;
     width: 540px;
   }
-
+  
   /* 로그인, 회원가입 버튼 영역 */
   .button-wrapper button {
     
   }
 }
+
+
+
+/* 백업 */
+/* .input-email-wrapper input[type="email"]:focus + label,
+.input-pw-wrapper input[type="password"]:focus + label {
+  font-size: 13px;
+  align-self: flex-start;
+} */
+
+/* .input-email-wrapper,
+.input-pw-wrapper {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid #FEFEFE;
+}
+
+.input-email-wrapper input[type="email"],
+.input-pw-wrapper input[type="password"] {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  width: 239px;
+  color: #FEFEFE;
+}
+
+
+.input-email-wrapper label,
+.input-pw-wrapper label {
+  width: 4em;
+  line-height: 18px;
+  cursor: pointer;
+} */
