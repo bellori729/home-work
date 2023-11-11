@@ -76,14 +76,14 @@ body {
 .input-email-wrapper,
 .input-pw-wrapper {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row-reverse nowrap;
   justify-content: space-between;
   align-items: flex-end;
   border-bottom: 1px solid #FEFEFE;
 }
 
-.input-wrapper input[type="email"],
-.input-wrapper input[type="password"] {
+.input-email-wrapper input[type="email"],
+.input-pw-wrapper input[type="password"] {
   outline: none;
   background-color: transparent;
   border: none;
@@ -91,10 +91,17 @@ body {
   color: #FEFEFE;
 }
 
+.input-email-wrapper input[type="email"]:focus + label,
+.input-pw-wrapper input[type="password"]:focus + label {
+  font-size: 13px;
+  align-self: flex-start;
+}
+
 .input-email-wrapper label,
 .input-pw-wrapper label {
   width: 4em;
   line-height: 18px;
+  cursor: pointer;
 }
 
 /* 로그인, 회원가입 버튼 영역 */
@@ -128,25 +135,35 @@ body {
 }
 
 /* 이메일 저장 영역 */
-.email-save-checkbox-wrapper {
-  display: flex;
-  flex-flow: row-reverse nowrap;
-  justify-content: flex-end;
-  gap: 2px;
+.email-save-checkbox-wrapper input[id="email-save-checkbox"] {
+  display: none;
 }
 
 .email-save-checkbox-wrapper label {
-  font-size: 12px;
-  line-height: 1;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 20px;
 }
 
-.email-save-checkbox-wrapper input {
-  /* display: none; */
-}
-.email-save-checkbox-wrapper span {
+.email-save-checkbox-wrapper label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 20px;
   height: 20px;
-  background: #ddd;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.email-save-checkbox-wrapper input[id="email-save-checkbox"]:checked + label::before {
+  background-image: url('./images/checked.png');
+}
+
+.email-save-checkbox-wrapper label::before {
+  background-image: url('./images/un_check.png');
 }
 
 
@@ -181,8 +198,8 @@ body {
     height: 48px;
   }
 
-  .input-wrapper input[type="email"],
-  .input-wrapper input[type="password"] {
+  input[id="input-email"],
+  input[id="input-pw"] {
     margin: 0 0 8px 0;
   }
 
