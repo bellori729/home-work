@@ -18,6 +18,7 @@
 body {
   font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
   color: #fff;
+  background-color: #aaa
 }
 
 /* 메인 전체 컨테이너 */
@@ -27,6 +28,8 @@ body {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  background: url(./images/mcoffeebg.png) no-repeat center center / cover;
+  min-width: 375px;
 }
 
 /* 메인 타이틀 영역 */
@@ -39,6 +42,7 @@ body {
   flex-flow: column nowrap;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin: 100px 0 114px 0;
 }
 
 .main-title {
@@ -62,6 +66,7 @@ body {
 /* 로그인 폼 영역 */
 .login-form {
   width: 311px;
+  margin-bottom: 50px;
 }
 
 .login-form fieldset {
@@ -73,8 +78,14 @@ body {
   border: none;
 }
 
+.input-wrapper {
+  width: 311px;
+}
+
 .input-email-wrapper,
 .input-pw-wrapper {
+  width: 100%;
+  height: 48px;
   display: flex;
   flex-flow: column-reverse nowrap;
   justify-content: space-between;
@@ -109,7 +120,12 @@ body {
 
 /* 로그인, 회원가입 버튼 영역 */
 .button-wrapper {
-  
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 311px;
+  height: 111px;
 }
 
 .button-wrapper button,
@@ -124,6 +140,11 @@ body {
   font-weight: 700;
   outline: none;
   position: relative;
+}
+
+.button-wrapper button {
+  padding: 13px 0;
+  line-height: 1em;
 }
 
 .button-wrapper button:hover,
@@ -141,6 +162,10 @@ body {
 /* 이메일 저장 영역 */
 .email-save-checkbox-wrapper input[id="email-save-checkbox"] {
   display: none;
+}
+
+.email-save-checkbox-wrapper {
+  margin: 15px 0 133px 0;
 }
 
 .email-save-checkbox-wrapper label {
@@ -170,76 +195,11 @@ body {
   background-image: url('./images/un_check.png');
 }
 
-
-
-/* 모바일 미디어 쿼리 */
-@media (max-width: 600px) {
-  body {
-    background-color: #aaa
-  }
-  
-  .main-container {
-    background: url(./images/mcoffeebg.png) no-repeat center center / cover;
-    min-width: 375px;
-  }
-  
-  .main-title-wrapper {
-    margin: 100px 0 114px 0;
-  }
-  
-  .login-form {
-    margin-bottom: 50px;
-    width: 311px;
-  }
-  
-  .input-wrapper {
-    width: 311px;
-  }
-  
-  .input-email-wrapper,
-  .input-pw-wrapper {
-    width: 100%;
-    height: 48px;
-  }
-  
-  input[id="input-email"],
-  input[id="input-pw"] {
-    margin: 0 0 8px 0;
-  }
-  
-  .input-email-wrapper label,
-  .input-pw-wrapper label {
-    /* margin: 0 0 8px 8px; */
-  }
-  
-  /* 로그인, 회원가입 버튼 영역 */
-  .button-wrapper {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 311px;
-    height: 111px;
-  }
-  
-  .button-wrapper button {
-    padding: 13px 0;
-    line-height: 1em;
-  }
-  
-  .email-save-checkbox-wrapper {
-    margin: 15px 0 133px 0;
-  }
-  
-  .icon-right-small {
-    position: absolute;
-    top: 14px;
-    right: 14px;
-  }
-  
+.icon-right-small {
+  position: absolute;
+  top: 14px;
+  right: 14px;
 }
-
-
 
 /* 데스크톱 미디어 쿼리 */
 @media (min-width: 600px) {
