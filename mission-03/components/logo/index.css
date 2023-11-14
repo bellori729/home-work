@@ -1,0 +1,11 @@
+.title-logo-link img {
+  display: block;
+  width: 5em;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .title-logo-link img {
+    width: 8.75em;
+  }
+}
