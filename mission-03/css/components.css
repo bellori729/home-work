@@ -1,2 +1,4 @@
 /* 로고 CSS */
-@import '../components/logo/index.css'
+@import '../components/logo/index.css';
+/* 셀렉터 CSS */
+@import '../components/selector/index.css';
