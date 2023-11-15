@@ -2,3 +2,14 @@
 @import './css/reset.css';
 @import './css/components.css';
 @import './css/sr-only.css';
+
+/* body {
+  background: url('./images/background.svg') no-repeat;
+  background-size: cover;
+} */
+
+/* @media (max-width: 768px) {
+  body {
+    background: url('./images/m_background.svg') no-repeat;
+  }
+} */
