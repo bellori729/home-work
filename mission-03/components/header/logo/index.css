@@ -3,7 +3,14 @@
 }
 
 .title-logo-wrapper {
-  width: 5rem;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.title-logo-link a {
+  width: 100%;
 }
 
 .title-logo-link img {
