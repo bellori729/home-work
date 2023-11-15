@@ -11,7 +11,7 @@
   - 반응형으로 모바일용 셀렉터(좌) 사이즈 및 데스크톱용 셀렉터(우) 사이즈 가변
   - 한국어 option 태그의 atrribute selected로 지정하여 기본값으로 설정
 
-![](./explain/selector_ex3.PNG)
+![](./explain/selector_ex4.PNG)
   - focus 시 outline
 
 ## 로그인 버튼
