@@ -1,3 +1,6 @@
+/* 헤더 CSS */
+@import '../components/header/index.css';
+
 /* 로고 CSS */
 @import '../components/header/logo/index.css';
 /* 셀렉터 CSS */
