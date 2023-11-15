@@ -2,3 +2,5 @@
 @import '../components/logo/index.css';
 /* 셀렉터 CSS */
 @import '../components/selector/index.css';
+/* 로그인 버튼 CSS */
+@import '../components/loginButton/index.css';
