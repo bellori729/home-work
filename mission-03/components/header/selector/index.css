@@ -28,7 +28,7 @@
   border-radius: 2px;
   text-align: center;
   width: 113px;
-  background: url('./../../images/down-arrow.svg') no-repeat 90% 50%;
+  background: url('./../../../images/down-arrow.svg') no-repeat 90% 50%;
   background-size: 16px 16px;
 }
 
