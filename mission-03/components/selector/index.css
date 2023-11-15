@@ -1,5 +1,8 @@
+.component-container {
+  margin: 10px;
+}
+
 .selector-wrapper {
-  border: 1px solid black;
   width: 114px;
   height: 30px;
   display: flex;
@@ -10,24 +13,23 @@
 }
 
 .selector-wrapper img {
-  /* background-color: yellow; */
   pointer-events: none;
   position: absolute;
-  top: 50;
-  left: 5px;
+  top: 7px;
+  left: 10px;
 }
 
 .selector-wrapper select {
   border: 1px solid #757575;
+  font-size: 16px;
   appearance: none;
   height: 30px;
   color: #757575;
   border-radius: 2px;
   text-align: center;
   width: 113px;
-  background: url('./../../images/down-arrow.svg') no-repeat 95% 50%;
+  background: url('./../../images/down-arrow.svg') no-repeat 90% 50%;
   background-size: 16px 16px;
-  /* background-color: yellow; */
 }
 
 .selector-wrapper select:focus {
@@ -35,6 +37,17 @@
   outline-color: #2EDE75;
 }
 
-.selector-wrapper select:focus {
-  /* outline: none; */
+@media (min-width: 768px) {
+  .selector-wrapper {
+    height: 40px;
+  }
+
+  .selector-wrapper select {
+    height: 40px;
+  }
+
+  .selector-wrapper img {
+    top: 12px;
+    left: 10px;
+  }
 }
