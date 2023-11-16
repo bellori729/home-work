@@ -3,7 +3,7 @@
 @import './css/components.css';
 @import './css/sr-only.css';
 
-body {
+/* body {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.95);
   background-image: url('./images/mbg.png');
@@ -32,4 +32,4 @@ footer {
   header {
     
   }
-}
+} */
