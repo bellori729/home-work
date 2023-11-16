@@ -9,3 +9,20 @@
 
 /* 로그인 버튼 CSS */
 @import '../components/header/loginButton/index.css';
+
+
+
+
+
+
+/* 푸터 CSS */
+@import '../components/footer/index.css';
+
+/* call CSS */
+@import '../components/footer/call/index.css';
+
+/* 컨택트 CSS */
+@import '../components/footer/contact/index.css';
+
+/* 네비게이션 CSS */
+@import '../components/footer/navigation/index.css';
