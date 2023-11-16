@@ -50,3 +50,15 @@
   - **focus 시 outline**
 
 ![](./explain/loginButton_ex4.PNG)
+
+# 푸터 영역
+
+## 콜 영역
+
+ - **모바일용**
+
+![](./explain/call_ex1.PNG)
+
+  - **데스크톱용**
+
+![](./explain/call_ex2.PNG)
