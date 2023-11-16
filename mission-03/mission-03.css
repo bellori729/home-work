@@ -3,7 +3,7 @@
 @import './css/components.css';
 @import './css/sr-only.css';
 
-/* body {
+body {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.95);
   background-image: url('./images/mbg.png');
@@ -11,8 +11,16 @@
   background-size: cover;
 }
 
+header {
+  padding: 20px 25px;
+}
+
 @media (min-width: 768px) {
   body {
     background-image: url('./images/bg.png');
   }
-} */
+
+  header {
+    padding: 40px 0;
+  }
+}
