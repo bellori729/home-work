@@ -82,3 +82,33 @@
 ![](./explain/nav_ex2.PNG)
 
 시안에는 언더라인이 없지만, 사용자 입장에서 클릭이 가능하다는 것을 알려주기 위해 언더라인 생성
+
+## 셀렉터
+ - **모바일용**
+
+![](./explain/selector_ex1.PNG)
+
+ - **데스크톱용**
+
+![](./explain/selector_ex2.PNG)
+
+한국어 option 태그의 atrribute selected로 지정하여 기본값으로 설정
+
+  - **focus 시 outline**
+
+![](./explain/selector_ex3.PNG)
+
+## 컨택트
+ - **모바일용**
+
+![](./explain/contact_ex1.PNG)
+
+ - **데스크톱용**
+
+![](./explain/contact_ex2.PNG)
+
+![](./explain/contact_ex3.PNG)
+
+h2.sr-only로 Netflix 대한민국 기업 정보임을 알림
+
+아래 중복되는 느낌의 p 태그 Netflix 대한민국은 aria-hidden 처리
