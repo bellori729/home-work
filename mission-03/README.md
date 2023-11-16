@@ -61,7 +61,7 @@
 
  - **모바일용**
 
-![](./explain/call_ex1.PNG)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/call_ex1.png?raw=true)
 
   - **데스크톱용**
 
