@@ -11,8 +11,24 @@ body {
   background-size: cover;
 }
 
+header {
+  background-color: yellow;
+}
+
+main {
+  background-color: lime;
+}
+
+footer {
+  background-color: black;
+}
+
 @media (min-width: 768px) {
   body {
     background-image: url('./images/bg.png');
+  }
+
+  header {
+    
   }
 }
