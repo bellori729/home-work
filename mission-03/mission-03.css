@@ -9,6 +9,7 @@ body {
   background-image: url('./images/mbg.png');
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: SpoqaHanSans;
 }
 
 header {
