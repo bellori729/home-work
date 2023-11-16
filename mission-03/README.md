@@ -30,7 +30,7 @@
 
   - **focus 시 outline**
 
-![](./explain/selector_ex4.PNG)
+![](./explain/selector_ex3.PNG)
 
 ## 로그인 버튼
  - **모바일용**
