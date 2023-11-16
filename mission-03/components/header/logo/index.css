@@ -13,6 +13,10 @@
   width: 100%;
 }
 
+.title-logo-link:focus {
+  outline-color: #2EDE75;
+}
+
 .title-logo-link img {
   width: 100%;
   height: 100%;
