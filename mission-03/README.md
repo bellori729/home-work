@@ -11,7 +11,7 @@
 ## 로고
  - **모바일용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/ogo_ex1.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/logo_ex1.PNG?raw=true)
 
  - **데스크톱용**
 
@@ -32,7 +32,7 @@
 
   - **focus 시 outline**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/selector_ex3.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/selector_ex3.png?raw=true)
 
 ## 로그인 버튼
  - **모바일용**
@@ -59,11 +59,11 @@
 
  - **모바일용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/footer_ex1.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/footer_ex1.png?raw=true)
 
   - **데스크톱용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/footer_ex2.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/footer_ex2.png?raw=true)
 
 
 ## 콜 영역
@@ -74,7 +74,7 @@
 
   - **데스크톱용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/call_ex2.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/call_ex2.png?raw=true)
 
 문의전화 옆 번호 클릭 시 href="tel : 00-308-321-0058"로, 전화 연결 되게끔 설정
 
@@ -84,11 +84,11 @@
 
  - **모바일용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/nav_ex1.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/nav_ex1.png?raw=true)
 
   - **데스크톱용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/nav_ex2.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/nav_ex2.png?raw=true)
 
 시안에는 언더라인이 없지만, 사용자 입장에서 클릭이 가능하다는 것을 알려주기 위해 언더라인 생성
 
@@ -105,16 +105,16 @@
 
   - **focus 시 outline**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/selector_ex3.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/selector_ex3.png?raw=true)
 
 ## 컨택트
  - **모바일용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/contact_ex1.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/contact_ex1.png?raw=true)
 
  - **데스크톱용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/contact_ex2.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/contact_ex2.png?raw=true)
 
 ![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/contact_ex3.PNG?raw=true)
 
