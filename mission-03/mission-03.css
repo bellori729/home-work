@@ -3,7 +3,13 @@
 @import './css/components.css';
 @import './css/sr-only.css';
 
-/* body {
+*:focus {
+  border-radius: 2px;
+  outline-color: #2EDE75;
+}
+
+body {
+  width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.95);
   background-image: url('./images/mbg.png');
@@ -12,24 +18,8 @@
   font-family: SpoqaHanSans;
 }
 
-header {
-  background-color: yellow;
-}
-
-main {
-  background-color: lime;
-}
-
-footer {
-  background-color: black;
-}
-
 @media (min-width: 768px) {
   body {
     background-image: url('./images/bg.png');
   }
-
-  header {
-    
-  }
-} */
+}
