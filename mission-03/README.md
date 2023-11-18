@@ -57,6 +57,15 @@
 
 # 푸터 영역
 
+ - **모바일용**
+
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/footer_ex1.PNG?raw=true)
+
+  - **데스크톱용**
+
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/footer_ex2.PNG?raw=true)
+
+
 ## 콜 영역
 
  - **모바일용**
