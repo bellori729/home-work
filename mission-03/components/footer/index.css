@@ -1,0 +1,35 @@
+footer {
+  background-color: black;
+  padding: 40px 20px;
+  width:100vw;
+}
+
+.call-wrapper {
+  margin-bottom: 26px;
+}
+
+.navigation-wrapper {
+  margin-bottom: 51px;
+}
+
+.selector-wrapper {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  footer {
+  padding: 50px 200px;
+  }
+
+  .call-wrapper {
+    margin-bottom: 50px;
+  }
+
+  .navigation-wrapper {
+    margin-bottom: 46px;
+  }
+
+  .selector-wrapper {
+    margin-bottom:46px;
+  }
+}
