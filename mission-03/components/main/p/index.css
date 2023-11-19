@@ -1,7 +1,6 @@
 .p-wrapper {
   width: 100vw;
   text-align: center;
-  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +35,10 @@
     width: 100%;
     padding: 0 225px;
     row-gap: 28px;
-    background-color: transparent;
+  }
+
+  .p-wrapper p {
+    margin-bottom: 28px;
   }
   .p-wrapper p:nth-child(1) {
     font-size: 68px;
