@@ -11,11 +11,11 @@
 ## 로고
  - **모바일용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/logo_ex1.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/logo_ex2.PNG?raw=true)
 
  - **데스크톱용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/logo_ex2.PNG?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/logo_ex1.PNG?raw=true)
 
 로고 클릭 시 메인 홈페이지로 이동하게끔 a 태그로 감쌈
 
