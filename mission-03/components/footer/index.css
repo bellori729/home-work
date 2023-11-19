@@ -12,7 +12,7 @@ footer {
   margin-bottom: 51px;
 }
 
-.selector-wrapper {
+footer .selector-wrapper {
   margin-bottom: 30px;
 }
 
@@ -29,7 +29,7 @@ footer {
     margin-bottom: 46px;
   }
 
-  .selector-wrapper {
+  footer .selector-wrapper {
     margin-bottom:46px;
   }
 }
