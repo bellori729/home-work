@@ -30,10 +30,6 @@
 
 한국어 option 태그의 atrribute selected로 지정하여 기본값으로 설정
 
-  - **focus 시 outline**
-
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/selector_ex3.png?raw=true)
-
 ## 로그인 버튼
  - **모바일용**
 
@@ -51,9 +47,16 @@
 
 시안에는 다르게 나와있지만, hover 시 transition property를 넣어 자연스럽게 살짝 어둡게 변함
 
-  - **focus 시 outline**
+# 메인 영역
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/loginButton_ex4.PNG?raw=true)
+ - **모바일용**
+
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/footer_ex1.png?raw=true)
+
+  - **데스크톱용**
+
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/footer_ex2.png?raw=true)
+
 
 # 푸터 영역
 
@@ -64,7 +67,6 @@
   - **데스크톱용**
 
 ![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/footer_ex2.png?raw=true)
-
 
 ## 콜 영역
 
@@ -102,10 +104,6 @@
 ![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/selector_ex2.PNG?raw=true)
 
 한국어 option 태그의 atrribute selected로 지정하여 기본값으로 설정
-
-  - **focus 시 outline**
-
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/selector_ex3.png?raw=true)
 
 ## 컨택트
  - **모바일용**
