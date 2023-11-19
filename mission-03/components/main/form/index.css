@@ -47,7 +47,6 @@
   font-size: 12px;
   font-weight: 400;
   color: white;
-  margin-bottom: 48px;
 }
 
 @media (min-width: 768px) {
@@ -87,6 +86,5 @@
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 57px;
   }
 }
