@@ -51,11 +51,11 @@
 
  - **모바일용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/footer_ex1.png?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/main_ex1.png?raw=true)
 
   - **데스크톱용**
 
-![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/footer_ex2.png?raw=true)
+![](https://github.com/bellori729/home-work/blob/main/mission-03/explain/main_ex2.png?raw=true)
 
 
 # 푸터 영역
