@@ -3,10 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>템플릿 컴포넌트</title>
-    <link rel="stylesheet" href="../../mission-03.css" />
+    <title>폼 컴포넌트</title>
+    <link rel="stylesheet" href="../../../mission-03.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="component-container"></div>
+    <div class="component-container">
+      <form class="main-form">
+        <input type="email" id="main-form-input" placeholder="이메일 주소" />
+        <label for="main-form-input" class="sr-only">이메일 :</label>
+        <div class="main-form-button-wrapper">
+          <button type="button">30일 무료 이용</button>
+          <img src="./../../../images/arrow.svg" alt="" />
+        </div>
+        <p>신규 회원만 이 프로모션을 이용하실 수 있습니다.</p>
+      </form>
+    </div>
   </body>
 </html>
