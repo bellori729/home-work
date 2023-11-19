@@ -12,6 +12,14 @@
 
 
 
+/* 메인 CSS */
+@import '../components/main/index.css';
+
+/* p CSS */
+@import '../components/main/p/index.css';
+
+/* form css */
+@import '../components/main/form/index.css';
 
 
 
