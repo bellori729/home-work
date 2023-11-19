@@ -1,0 +1,16 @@
+.main-wrapper {
+  background-color: #000;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  height: 532px;
+}
+
+@media (min-width: 768px) {
+  .main-wrapper {
+    background-color: transparent;
+    row-gap: 0;
+  }
+}
