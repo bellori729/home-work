@@ -11,15 +11,28 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: black;
   background-image: url('./images/mbg.png');
   background-repeat: no-repeat;
   background-size: cover;
   font-family: SpoqaHanSans;
 }
 
+main {
+  min-height: 100%;
+}
+
+footer {
+  height: 762px;
+  border-top: 4px solid #2f2f2f;
+}
+
 @media (min-width: 768px) {
   body {
     background-image: url('./images/bg.png');
+  }
+
+  footer {
+    height: 700px;
   }
 }
